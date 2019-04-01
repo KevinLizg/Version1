@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Focus</string>
+    <string name="menu_title_settings">Settings</string>
+    <string name="menu_title_about">About</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.kevinli.practice.OneFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/image1"
+            android:src="@drawable/selector1"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/image2"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector2"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:id="@+id/image3"
+            android:src="@drawable/selector3"
+            />
+
+    </LinearLayout>
+<!--<android.support.v4.widget.DrawerLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/drawer_layout">-->
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+        <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+
+<!--</FrameLayout>-->
+
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/nav_view"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--app:menu="@menu/menu"-->
+        <!--app:headerLayout="@layout/nav_header"/>-->
+<!--</android.support.v4.widget.DrawerLayout>-->
+
+
+
+</RelativeLayout>
